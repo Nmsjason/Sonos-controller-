@@ -1,0 +1,33 @@
+{
+  "tracks": {
+    "items": [
+      {
+        "id": "track-glass-harbor",
+        "name": "Glass Harbor",
+        "uri": "spotify:track:glassharbor",
+        "artists": [{ "name": "The Velvet Satellites" }],
+        "album": {
+          "name": "Ember Tide",
+          "images": [{ "url": "https://i.scdn.co/image/ember-tide" }]
+        }
+      }
+    ]
+  },
+  "playlists": {
+    "items": [
+      {
+        "id": "playlist-late-night",
+        "name": "Late Night Drive",
+        "uri": "spotify:playlist:latenightdrive",
+        "owner": { "display_name": "Jason" },
+        "images": [{ "url": "https://i.scdn.co/image/late-night" }]
+      }
+    ]
+  },
+  "albums": { "items": [] },
+  "artists": {
+    "items": [
+      { "id": "artist-velvet", "name": "The Velvet Satellites", "uri": "spotify:artist:velvet" }
+    ]
+  }
+}

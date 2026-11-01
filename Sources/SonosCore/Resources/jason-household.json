@@ -1,0 +1,279 @@
+{
+  "household": {
+    "id": "Sonos_jason_demo",
+    "name": "Home",
+    "players": [
+      { "id": "RINCON_000E0000000101400", "name": "Living Room", "volume": { "value": 64, "muted": false }, "host": "192.168.4.21", "sortOrder": 0 },
+      { "id": "RINCON_000E0000000201400", "name": "Kitchen", "volume": { "value": 46, "muted": false }, "host": "192.168.4.22", "sortOrder": 1 },
+      { "id": "RINCON_000E0000000301400", "name": "Bedroom", "volume": { "value": 30, "muted": false }, "host": "192.168.4.23", "sortOrder": 2 },
+      { "id": "RINCON_000E0000000401400", "name": "Office", "volume": { "value": 45, "muted": false }, "host": "192.168.4.24", "sortOrder": 3 },
+      { "id": "RINCON_000E0000000501400", "name": "Patio", "volume": { "value": 72, "muted": false }, "host": "192.168.4.25", "sortOrder": 4 },
+      { "id": "RINCON_000E0000000601400", "name": "Den", "volume": { "value": 38, "muted": false }, "host": "192.168.4.26", "sortOrder": 5 },
+      { "id": "RINCON_000E0000000701400", "name": "Bathroom", "volume": { "value": 18, "muted": false }, "host": "192.168.4.27", "sortOrder": 6 }
+    ],
+    "groups": [
+      {
+        "id": "RINCON_000E0000000101400",
+        "name": "Living Room + Kitchen",
+        "coordinatorId": "RINCON_000E0000000101400",
+        "playerIds": ["RINCON_000E0000000101400", "RINCON_000E0000000201400"],
+        "volume": { "value": 58, "muted": false },
+        "playback": {
+          "state": "playing",
+          "positionMillis": 84000,
+          "durationMillis": 222000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Glass Harbor",
+            "artist": "The Velvet Satellites",
+            "album": "Ember Tide",
+            "source": "spotify",
+            "spotifyURI": "spotify:track:glassharbor",
+            "art": {
+              "primary": "9a5a2c",
+              "secondary": "4e1c1e",
+              "accent": "d9b46c",
+              "motif": "sun",
+              "label": "EMBER TIDE",
+              "shortLabel": "EMBER"
+            }
+          }
+        }
+      },
+      {
+        "id": "RINCON_000E0000000301400",
+        "name": "Bedroom",
+        "coordinatorId": "RINCON_000E0000000301400",
+        "playerIds": ["RINCON_000E0000000301400"],
+        "volume": { "value": 30, "muted": false },
+        "playback": {
+          "state": "playing",
+          "positionMillis": 40000,
+          "durationMillis": 200000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Slow Orbit",
+            "artist": "Luna Marrow",
+            "album": "Quiet Planets",
+            "source": "spotify",
+            "spotifyURI": "spotify:track:sloworbit",
+            "art": { "primary": "4b5866", "secondary": "20262e", "accent": "c9b48a", "motif": "orb" }
+          }
+        }
+      },
+      {
+        "id": "RINCON_000E0000000401400",
+        "name": "Office",
+        "coordinatorId": "RINCON_000E0000000401400",
+        "playerIds": ["RINCON_000E0000000401400"],
+        "volume": { "value": 45, "muted": false },
+        "playback": {
+          "state": "playing",
+          "positionMillis": 90000,
+          "durationMillis": 180000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Paper Lanterns",
+            "artist": "Kiko Ardent",
+            "album": "Focus Field Radio",
+            "source": "pandora",
+            "art": { "primary": "35603f", "secondary": "18291e", "accent": "a9a561", "motif": "wave" }
+          }
+        }
+      },
+      {
+        "id": "RINCON_000E0000000501400",
+        "name": "Patio",
+        "coordinatorId": "RINCON_000E0000000501400",
+        "playerIds": ["RINCON_000E0000000501400"],
+        "volume": { "value": 72, "muted": false },
+        "playback": {
+          "state": "playing",
+          "positionMillis": 150000,
+          "durationMillis": 210000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Sunburn Static",
+            "artist": "The Coral Kings",
+            "album": "Heatwave Club",
+            "source": "spotify",
+            "spotifyURI": "spotify:track:sunburnstatic",
+            "art": { "primary": "a8733f", "secondary": "5e2422", "accent": "e3c98f", "motif": "stripe" }
+          }
+        }
+      },
+      {
+        "id": "RINCON_000E0000000601400",
+        "name": "Den",
+        "coordinatorId": "RINCON_000E0000000601400",
+        "playerIds": ["RINCON_000E0000000601400"],
+        "volume": { "value": 38, "muted": false },
+        "playback": {
+          "state": "playing",
+          "positionMillis": 10000,
+          "durationMillis": 240000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Midnight Tram",
+            "artist": "Ollie Verne",
+            "album": "City After Dark",
+            "source": "pandora",
+            "art": { "primary": "3d4a5c", "secondary": "5a2629", "accent": "b8964f", "motif": "grid" }
+          }
+        }
+      },
+      {
+        "id": "RINCON_000E0000000701400",
+        "name": "Bathroom",
+        "coordinatorId": "RINCON_000E0000000701400",
+        "playerIds": ["RINCON_000E0000000701400"],
+        "volume": { "value": 18, "muted": false },
+        "playback": {
+          "state": "paused",
+          "positionMillis": 50000,
+          "durationMillis": 190000,
+          "playModes": { "shuffle": false, "repeat": false, "repeatOne": false, "crossfade": false },
+          "item": {
+            "title": "Morning Rinse",
+            "artist": "Pale Juniper",
+            "album": "Soft Weather",
+            "source": "spotify",
+            "spotifyURI": "spotify:track:morningrinse",
+            "art": { "primary": "6b6a3a", "secondary": "4a3426", "accent": "e6d7b5", "motif": "orb" }
+          }
+        }
+      }
+    ],
+    "presets": [
+      {
+        "id": "downstairs",
+        "name": "Downstairs",
+        "playerIds": ["RINCON_000E0000000101400", "RINCON_000E0000000201400", "RINCON_000E0000000601400"],
+        "subtitle": "Living, Kitchen, Den",
+        "primary": "9a5a2c",
+        "secondary": "4e1c1e"
+      },
+      {
+        "id": "outdoors",
+        "name": "Outdoors",
+        "playerIds": ["RINCON_000E0000000501400", "RINCON_000E0000000201400"],
+        "subtitle": "Patio, Kitchen",
+        "primary": "6b6a3a",
+        "secondary": "2d3a24"
+      },
+      {
+        "id": "upstairs",
+        "name": "Upstairs",
+        "playerIds": ["RINCON_000E0000000301400", "RINCON_000E0000000401400", "RINCON_000E0000000701400"],
+        "subtitle": "Bed, Office, Bath",
+        "primary": "4b5866",
+        "secondary": "1f252c"
+      },
+      {
+        "id": "evening",
+        "name": "Evening",
+        "playerIds": ["RINCON_000E0000000101400", "RINCON_000E0000000501400"],
+        "subtitle": "Living, Patio",
+        "primary": "2f4a36",
+        "secondary": "3a2a1e"
+      }
+    ],
+    "favorites": [
+      {
+        "id": "fav-focus-field",
+        "name": "Focus Field Radio",
+        "subtitle": "Station · Pandora",
+        "source": "pandora",
+        "kind": "station",
+        "sonosURI": "x-sonosapi-radio:ST%3a4063?sid=236&flags=8296&sn=1",
+        "art": { "primary": "35603f", "secondary": "18291e", "accent": "a9a561", "motif": "wave" }
+      },
+      {
+        "id": "fav-city-after-dark",
+        "name": "City After Dark",
+        "subtitle": "Station · Pandora",
+        "source": "pandora",
+        "kind": "station",
+        "sonosURI": "x-sonosapi-radio:ST%3a8841?sid=236&flags=8296&sn=1",
+        "art": { "primary": "3d4a5c", "secondary": "5a2629", "accent": "b8964f", "motif": "grid" }
+      },
+      {
+        "id": "fav-paper-lanterns",
+        "name": "Paper Lanterns",
+        "subtitle": "Station · Kiko Ardent",
+        "source": "pandora",
+        "kind": "station",
+        "sonosURI": "x-sonosapi-radio:ST%3a2208?sid=236&flags=8296&sn=1",
+        "art": { "primary": "35603f", "secondary": "18291e", "accent": "a9a561", "motif": "wave" }
+      }
+    ]
+  },
+  "peers": [
+    { "id": "jason-iphone", "name": "Jason's iPhone", "groupId": "RINCON_000E0000000101400", "presence": "active" },
+    { "id": "sarah-iphone", "name": "Sarah's iPhone", "groupId": "RINCON_000E0000000101400", "presence": "active" },
+    { "id": "guest-iphone", "name": "Guest iPhone", "groupId": "RINCON_000E0000000101400", "presence": "guest" }
+  ],
+  "catalog": [
+    {
+      "id": "jump-back",
+      "title": "Jump Back In",
+      "source": "spotify",
+      "items": [
+        {
+          "id": "golden-hour",
+          "title": "Golden Hour Mix",
+          "subtitle": "Playlist · Spotify",
+          "source": "spotify",
+          "kind": "playlist",
+          "spotifyURI": "spotify:playlist:goldenhour",
+          "art": { "primary": "a8693a", "secondary": "4e1c1e", "accent": "e3c98f", "motif": "sun" }
+        },
+        {
+          "id": "late-night",
+          "title": "Late Night Drive",
+          "subtitle": "Playlist · 42 songs",
+          "source": "spotify",
+          "kind": "playlist",
+          "spotifyURI": "spotify:playlist:latenightdrive",
+          "art": { "primary": "3d4a5c", "secondary": "1c2128", "accent": "c9a24a", "motif": "orb" }
+        },
+        {
+          "id": "coastal",
+          "title": "Coastal Static",
+          "subtitle": "Album · Mira Sol",
+          "source": "spotify",
+          "kind": "album",
+          "spotifyURI": "spotify:album:coastalstatic",
+          "art": { "primary": "35603f", "secondary": "6b6a3a", "accent": "bfa874", "motif": "stripe" }
+        }
+      ]
+    },
+    {
+      "id": "made-for-jason",
+      "title": "Made for Jason",
+      "source": "spotify",
+      "items": [
+        {
+          "id": "daily-mix-1",
+          "title": "Daily Mix 1",
+          "subtitle": "Velvet Satellites & more",
+          "source": "spotify",
+          "kind": "mix",
+          "spotifyURI": "spotify:playlist:dailymix1",
+          "art": { "primary": "5e2422", "secondary": "7a5527", "accent": "d4b06a", "motif": "grid" }
+        },
+        {
+          "id": "discover-weekly",
+          "title": "Discover Weekly",
+          "subtitle": "Fresh picks",
+          "source": "spotify",
+          "kind": "playlist",
+          "spotifyURI": "spotify:playlist:discoverweekly",
+          "art": { "primary": "4f5d3a", "secondary": "2a2f22", "accent": "c9b48a", "motif": "wave" }
+        }
+      ]
+    }
+  ],
+  "profile": { "name": "Jason", "initials": "JS" },
+  "discovery": { "speakers": [], "usedSSDPFallback": false }
+}

@@ -1,0 +1,81 @@
+name: SonosController
+options:
+  bundleIdPrefix: com.jason.sonos
+  deploymentTarget:
+    iOS: "17.0"
+    watchOS: "10.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+packages:
+  SonosCore:
+    path: .
+targets:
+  SonosController:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/iOS
+        excludes:
+          - Info.plist
+          - SonosController.entitlements
+    dependencies:
+      - package: SonosCore
+        product: SonosCore
+      - package: SonosCore
+        product: SonosDesign
+      - target: SonosWatch
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jason.sonos.controller
+        PRODUCT_NAME: Sonos
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: App/iOS/Info.plist
+        CODE_SIGN_ENTITLEMENTS: App/iOS/SonosController.entitlements
+        GENERATE_INFOPLIST_FILE: NO
+        SUPPORTS_MACCATALYST: NO
+        SWIFT_STRICT_CONCURRENCY: minimal
+  SonosWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: App/watchOS
+        excludes:
+          - Info.plist
+    dependencies:
+      - package: SonosCore
+        product: SonosCore
+      - package: SonosCore
+        product: SonosDesign
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jason.sonos.controller.watchkitapp
+        PRODUCT_NAME: SonosWatch
+        TARGETED_DEVICE_FAMILY: "4"
+        INFOPLIST_FILE: App/watchOS/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        SWIFT_STRICT_CONCURRENCY: minimal
+        WATCHOS_DEPLOYMENT_TARGET: "10.0"
+schemes:
+  SonosController:
+    build:
+      targets:
+        SonosController: all
+        SonosWatch: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
